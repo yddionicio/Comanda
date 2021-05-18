@@ -3,12 +3,12 @@ include "usuario.php";
 
 class UsuarioApi{
 
-    public static function SelectUser(){
+    public static function Select(){
         var_dump(Usuario::Select());
     }
 
 
-    public static function InsertUser($request, $response, $args)
+    public static function Insert($request, $response, $args)
     {
             $usuario = new Usuario(...$request->getParsedBody());
             var_dump($usuario->Insertar());
