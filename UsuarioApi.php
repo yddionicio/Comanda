@@ -7,7 +7,10 @@ class UsuarioApi{
         var_dump(Usuario::Select());
     }
 
-    public static function InsertUser(){
-        var_dump(Usuario::);
+
+    public static function InsertUser($request, $response, $args)
+    {
+            $usuario = new Usuario(...$request->getParsedBody());
+            var_dump($usuario->Insertar());
     }
 }
