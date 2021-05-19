@@ -4,7 +4,7 @@ use \Psr\Http\Message\ResponseInterface as Response;
 
 require_once 'vendor/autoload.php';
 require 'UsuarioApi.php';
-require 'ProductosApi.php';
+require 'ProductoApi.php';
 require 'MesaApi.php';
 require 'PedidoApi.php';
 

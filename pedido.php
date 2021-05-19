@@ -1,5 +1,5 @@
 <?php
-
+include_once "AccesoDatos.php";
 class Pedido
 {
     private $id;

@@ -1,5 +1,5 @@
 <?php
-include "AccesoDatos.php";
+include_once "AccesoDatos.php";
 
 class Producto
 {
